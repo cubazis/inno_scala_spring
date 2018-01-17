@@ -70,7 +70,7 @@ def foldLeft[A, B](acc: B, f: (B, A) => B, l: List[A]): B
 example:
 ```scala
 val numbers = List(1, 2, 3, 4)
-asset(foldLeft(0, (_ + _), numbes) == 10)
+assert(foldLeft(0, (a: Int, b: Int) => a + b, numbers) == 10)
 ```
 
 ## High order functions - 5 - filter and map revisited
