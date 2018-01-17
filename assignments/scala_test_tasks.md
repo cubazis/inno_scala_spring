@@ -65,7 +65,7 @@ Write a function `foldLeft` that takes an acumulator `acc` of type `B`, function
 
 function signature 
 ```scala
-def foldLeft[A, B](acc: B, f: (B, A) => B, l: List[A])
+def foldLeft[A, B](acc: B, f: (B, A) => B, l: List[A]): B
 ```
 example:
 ```scala
