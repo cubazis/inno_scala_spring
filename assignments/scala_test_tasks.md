@@ -6,11 +6,20 @@ We will check your solutions, but in order to check them, fork the [repo](https:
 
 Later solutions would be added.
 ## Fibonacci sequence
-Write function `fib` that computes n-member of fibonacci sequence
+Write function `fib` that computes n-member of fibonacci sequence. You can count fib from 0-member or 1-member
 
 example:
+
+if we count from first member
 ```scala
-assert(fib(5) == 3) // should not fail
+assert(fib(1) == 0)
+assert(fib(5) == 3) // should not fail, if we count fib from 1
+```
+
+if we count from 0 member
+```scala
+assert(fib(0) == 0)
+assert(fib(5) == 5) // should not fail, if we count fib from 0
 ```
 
 Try to use tailrec to perform better
