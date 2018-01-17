@@ -51,7 +51,7 @@ assert(map((i: Int) => i + 1, numbers) == result)
 ## High order functions - 3 - filter
 Write a function `filter` that takes a function `p` from `A` to `Bollean` and a list of `A`s, `filter` should iterate list and apply function to each member, if member saticifies `p` than it goes to result list. As a result `filter` should return only members of list that saticfies `p`.
 
-function signature `def filter[B](p: B => Bollean, l: List[A]): List[A]`
+function signature `def filter[A](p: A => Bollean, l: List[A]): List[A]`
 
 example:
 ```scala
