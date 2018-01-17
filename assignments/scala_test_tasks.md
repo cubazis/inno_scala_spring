@@ -20,7 +20,7 @@ Write function `prime` that computes n's prime number
 
 example:
 ```scala
-assert(prime(10) == 31)
+assert(prime(10) == 31) // notice that that sequence was counted from 0, so prime(10) == 29 is ok too
 ```
 
 ## High order functions - 1
