@@ -33,7 +33,7 @@ assert(prime(10) == 31) // notice that that sequence was counted from 0, so prim
 ```
 
 ## High order functions - 1
-Write function `sum` that takes function `f` as a first argument from `Int` to `Int` and two `Int`s as a second `a` and third `b` argument. It should call `f` on `a` and summs with the result of `sum(f, a + 1, b)`
+Write function `sum` that takes function `f` as a first argument from `Int` to `Int` and two `Int`s as a second `a` and third `b` arguments. If a < b it should call `f` on `a` and summs with the result of `sum(f, a + 1, b)`
 
 example:
 ```scala
