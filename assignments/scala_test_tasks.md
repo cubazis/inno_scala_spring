@@ -60,7 +60,7 @@ assert(map((i: Int) => i + 1, numbers) == result)
 ## High order functions - 3 - filter
 Write a function `filter` that takes a function `p` from `A` to `Bollean` and a list of `A`s, `filter` should iterate list and apply function to each member, if member saticifies `p` than it goes to result list. As a result `filter` should return only members of list that saticfies `p`.
 
-function signature `def filter[A](p: A => Bollean, l: List[A]): List[A]`
+function signature `def filter[A](p: A => Boolean, l: List[A]): List[A]`
 
 example:
 ```scala
@@ -91,7 +91,7 @@ Write a class that will represent natural numbers as a `Zero` or successor of `0
 Probably you will need:
 - Case-classes
 - Patern-matching
-[Good tutorial](https://https://docs.scala-lang.org/tour/pattern-matching.html) on this topics
+[Good tutorial](https://docs.scala-lang.org/tour/pattern-matching.html) on this topics
 
 Class `Nat` for the task:
 ```scala
