@@ -112,7 +112,7 @@ assert((sub(two, one)) == Succ(Zero))
 ## FixCompile
 Remove comments and fix the program so it would compile:
 This program should double all odd members of the list and then sum them.
-Fix the `mapper` function, notice that `map` and `foldLeft` used from the standrad library.
+Fix the `mapper` function, notice that `map` and `foldLeft` used from the standard library.
 
 ```scala
 object FixCompile extends App {
