@@ -5,5 +5,18 @@ object Lesson2 {
                 repl()
         }
 
-        def repl(unit: Unit): Unit = {}
+        def repl(unit: Unit): Unit = {
+                /** Functional objects */
+                println("Functional objects")
+                val strings = new Array[String](3)
+                strings(0) = "Hello"
+                strings(1) = ", "
+                strings(2) = "world!\n"
+                for (i <- 0 to 2)
+                        print(strings(i))
+
+                println(strings(0))
+                println("The same stuff")
+                println(strings.apply(0))
+        }
 }
