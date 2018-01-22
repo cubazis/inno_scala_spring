@@ -9,4 +9,6 @@ Some good online sources:
 
 Lectures:
 - [1 Week: Why Scala, FP, Introduction](lectures/scala-2018-1.pdf)
-    - [Assignment](assignments/scala_test_tasks.md)
+    - [Assignment 0](assignments/scala_test_tasks.md)
+- [2 Week: ]()
+    - [Assignment 1]()
