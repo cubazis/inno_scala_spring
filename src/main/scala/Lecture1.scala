@@ -1,11 +1,42 @@
-object Lesson1 {
+import scala.collection.mutable.{HashMap => hashmap}
+
+object Lecture1 {
         def main(args: Array[String]): Unit = {
                 println("This is the first lecture support code")
-                println("You can run all the examples of repl in REPL shell")
+                println("You can run all the examples of 'repl' in REPL shell")
                 repl()
         }
 
         def repl(unit: Unit): Unit = {
+                /** Conciseness (1) */
+                println("Conciseness (1)")
+
+                // Conciseness in classes: ~2 times more compact than Java
+
+                // Scaladoc example
+                /** class Point with hidden constructor and override toString function.
+                  *
+                  * Notice!
+                  * toString overrides Java's Object.toString which is the method eventually called by println.
+                  * If you don't override it - the default implementation
+                  * (which prints the class name and memory address) will be used,
+                  * and NOT any other method that you create.
+                  *
+                  * @param x abscissa
+                  * @param y ordinate
+                  */
+                class Point(x:Int, y:Int) {override def toString = "("+x+" "+y+")"}
+                val p = new Point(3,4)
+                println(p.toString)
+
+                // Conciseness in types declaration: please look at import area above!!!
+                val hashmap1: hashmap[Int,String] = new hashmap[Int,String]()
+                // Due to 'Type inference' we can just write
+                val hashmap2 = new hashmap[Int,String]()
+
+                /** Conciseness (2) */
+                println("Conciseness (2)")
+                /** TODO: */
 
                 /** Placeholders (1) */
                 println("Placeholders (1)")
