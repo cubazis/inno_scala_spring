@@ -10,5 +10,5 @@ Some good online sources:
 Lectures:
 - [1 Week: Why Scala, FP, Introduction](lectures/scala-2018-1.pdf)
     - [Assignment 0](assignments/scala_test_tasks.md)
-- [2 Week: ]()
+- [2 Week: Functional Objects, Partially-applied functions, Currying, Treits](lectures/scala-2018-2.pdf)
     - [Assignment 1](assignments/Assignment_1.md)
