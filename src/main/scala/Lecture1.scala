@@ -1,3 +1,4 @@
+/** import area */
 import scala.collection.mutable.{HashMap => hashmap}
 
 object Lecture1 {
@@ -25,9 +26,12 @@ object Lecture1 {
                   * @param x abscissa
                   * @param y ordinate
                   */
-                class Point(x:Int, y:Int) {override def toString = "("+x+" "+y+")"}
+                class Point(val x:Int, y:Int) {override def toString = "("+x+" "+y+")"}
                 val p = new Point(3,4)
                 println(p.toString)
+                println(p.x)
+
+                //println(p.y) //try to print ordinate of [Point] p, why is it so? The answer is in Section 5.7 of Chapter 5
 
                 // Conciseness in types declaration: please look at import area above!!!
                 val hashmap1: hashmap[Int,String] = new hashmap[Int,String]()
