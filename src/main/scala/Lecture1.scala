@@ -1,4 +1,6 @@
 /** import area */
+
+// Look at this construction {_ => _}, very functional!
 import scala.collection.mutable.{HashMap => hashmap}
 
 object Lecture1 {
