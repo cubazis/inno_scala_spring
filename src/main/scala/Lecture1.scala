@@ -11,8 +11,8 @@ object Lecture1 {
         }
 
         def repl(unit: Unit): Unit = {
-                /** Conciseness (1) */
-                println("Conciseness (1)")
+                /** Conciseness */
+                println("Conciseness")
 
                 // Conciseness in classes: ~2 times more compact than Java
 
@@ -40,9 +40,48 @@ object Lecture1 {
                 // Due to 'Type inference' we can just write
                 val hashmap2 = new hashmap[Int,String]()
 
-                /** Conciseness (2) */
-                println("Conciseness (2)")
-                /** TODO: */
+                val name = "Enter Your Name Here"
+                println(name.exists(_.isUpper))
+
+                /** Variables & Values */
+                println("Variables & Values")
+                var x1: Int = 777 // Mutable variable
+                var x2 = 777 // Short form: the type of 'x' is deduced from the type of the initializer
+
+                val y1: Int = 777 // // Immutable variable ('value')
+                val y2 = 777 // Short form: the type of 'x' is deduced from the type of the initializer
+
+                /** Imperative vs Functional */
+                println("Imperative vs Functional")
+
+                //Conventional while-loop with var counter
+                def printArgs1(args: Array[String]): Unit = {
+                        var i = 0
+                        while (i < args.length) {
+                                print(args(i)+", ")
+                                i += 1
+                        }
+                        println()
+                }
+
+                //Conventional while-loop with var counter
+                def printArgs2(args: Array[String]): Unit = {
+                        for(arg <- args) {
+                                print(arg+", ")
+                        }
+                        println()
+                }
+                def printArgs3(args: Array[String]): Unit = {
+                        args.foreach(x => print(x+", "))
+
+                }
+
+                val text = Array("Enter", "arbitrary", "text", "here")
+                printArgs1(text)
+                printArgs2(text)
+                printArgs3(text)
+
+
 
                 /** Placeholders (1) */
                 println("Placeholders (1)")
