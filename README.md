@@ -9,6 +9,9 @@ Some good online sources:
 
 Lectures:
 - [1 Week: Why Scala, FP, Introduction](lectures/scala-2018-1.pdf)
-    - [Assignment 0](assignments/scala_test_tasks.md)
+    - [Assignment 0](assignments/hw-0/task.md)
+    - [Assignment 0 - solution](assignments/hw-0/solution.pdf)
 - [2 Week: Functional Objects, Partially-applied functions, Currying, Treits](lectures/scala-2018-2.pdf)
-    - [Assignment 1](assignments/Assignment_1.md)
+    - [Assignment 1](assignments/hw-1/task.md)
+- [3 Week: Currying, partially applied functions, DSL's](lectures/scala-2018-3.pdf)
+    - During this class a part of the lecture covered the 2nd week
