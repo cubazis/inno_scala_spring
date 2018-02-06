@@ -15,3 +15,6 @@ Lectures:
     - [Assignment 1](assignments/hw-1/task.md)
 - [3 Week: Currying, partially applied functions, DSL's](lectures/scala-2018-3.pdf)
     - During this class a part of the lecture covered the 2nd week
+- [4 Week: Control structures and patern matching](lectures/scala-2018-4.pdf)
+    - [Assignment 2](assignment/hw-2/task.md)
+    - [Seminar slides](assignment/hw-2/seminar.pdf)
