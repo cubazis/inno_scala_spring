@@ -30,7 +30,7 @@ You can store everything in memory, since it could be a trouble to use persisten
 ### Criteria of done
 * Code on [github](https://github.com/)
 * Project could be built using instructions in your `README.md` in repository
-* Make a small report that points out what was done (which functionality is working). 
+* Make a small report that points out what was done (which functionality is working). Report must be no more than one page A4 (pdf).
     * If you haven't managed something to work please write why, so we can cover this material during the course. 
     * Use [Postman](https://www.getpostman.com/) to test your API and publish your collection, add link in your report
     * [Optional] If you used some additional tools/materials/guides, please mention them in the report, it could be helpful for other students and try to connect the problem you was solving and material that you was using.
