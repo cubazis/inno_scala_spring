@@ -18,3 +18,8 @@ Lectures:
 - [4 Week: Control structures and patern matching](lectures/scala-2018-4.pdf)
     - [Assignment 2](assignments/hw-2/task.md)
     - [Seminar slides](assignments/hw-2/seminar.pdf)
+- [5 Week: Pattern Matching and basic scala collections](lectures/scala-2018-5.pdf)
+- [6 Week: Scala collections](lectures/scala-2018-6.pdf)
+    - [Seminar: parser combinators for HW solution](https://gist.github.com/Bassov/bc1982a885c7d84083bddc382cd9cc2c)
+- [8 Week: Scala collections (Set, Map), Implicit conversions](lectures/scala-2018-7.pdf)
+    - [Projects summary](projects/Summary.md)
