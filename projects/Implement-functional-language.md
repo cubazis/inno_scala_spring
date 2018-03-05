@@ -26,16 +26,20 @@ From here goes explanation of each step, some theory and approaches how it could
 ## 1-step lambda calculus
 
 This is tiny language that as powerful as turing machine. Terms could be defined as:
+```
 | Syntax   | Name        | Definition                                                                             |
 |----------|:-----------:|:--------------------------------------------------------------------------------------:|
 | `x`      | Variable    | A character or string representing a value                                             |
 | `\x.t`   | Abstraction | Function definition (`t` is a term). The variable `x` becomes bound in the expression. |
 | `(t u)`  | Application | Applying a function to an argument. `t` and `u` are terms.                             |
+```
 And the rules for evaluation are:
+```
 | Syntax                | Name             | Definition                                                    |
 |-----------------------|:----------------:|:-------------------------------------------------------------:|
 | `\x.t{x} -> \y.t{y}`  | alpha-conversion | Rename bound occurrence of `x` to `y`                         |
 | `(\x.t u) -> t{x:=u}` | beta-reduction   | Apply left term to other by replacing bound `x` in `t` by `u` |
+```
 Variables could be free or bounded, this can be defined inductively as:
 
 - The free variables of `x` are just `x`
