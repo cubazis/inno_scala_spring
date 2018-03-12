@@ -23,3 +23,5 @@ Lectures:
     - [Seminar: parser combinators for HW solution](https://gist.github.com/Bassov/bc1982a885c7d84083bddc382cd9cc2c)
 - [8 Week: Scala collections (Set, Map), Implicit conversions](lectures/scala-2018-7.pdf)
     - [Projects summary](projects/Summary.md)
+- 9 Week: Projects review
+    - [Code and slides](https://github.com/Bassov/scalatra_example)
