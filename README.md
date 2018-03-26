@@ -26,4 +26,6 @@ Lectures:
 - 9 Week: Projects review
     - [Code and slides](https://github.com/Bassov/scalatra_example)
 - [10 Week: Implicit conversions, Extractors](lectures/scala-2018-10.pdf)
-    - [Variance](seminars/Variance.pdf)
+    - [Variance](seminars/week_10/Variance.pdf)
+- [11 Week: ]()
+    - []()    
